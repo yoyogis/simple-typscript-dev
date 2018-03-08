@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bird Whisperer</title>
+</head>
+<body>
+    <script src="gell.js"></script>
+    <button id="hellobtn">Hello</button>
+</body>
+
+<script>
+    window.addEventListener("load",function(){
+        document.getElementById("hellobtn").addEventListener("click",function(){
+            new Hello().print();
+        })
+    });
+</script>
+</html>
